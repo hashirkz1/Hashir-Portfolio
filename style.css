@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4c2bb7;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height : 90px;
+    background-color: #4c2bb7;
+    align-items: center;
+}
+.nav-left {
+   font-size: 2rem;
+   padding-top: 3px;
+   color : #55adeb;
+}
+.hero .left-section .left-section-text{
+    padding-top: 3px;
+    font-size: 2rem;
+}
+.left-section>span{
+    padding: 16px;
+    color: #36e7f7;
+}
+.nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 25px;
+    font-size: 1.2rem;
+    padding-top: 3px;
+  
+}
+.nav-right ul li a{
+   text-decoration: none;
+   color : white
+}
+.nav-right ul li a:hover{
+    color : #55adeb ;
+    font-size: 1.4rem;
+}
+.hero {
+    height: 78vh;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero .left-section{
+    width : 30%;
+    font-size: 2rem;
+    color : white;
+    /* padding-top: 5px; */
+}
+.hero .right-section{
+    width : 30%;
+    height : 63vh;
+    position: relative;
+    right : -5px;
+    bottom : 60px;
+
+}
+#id1{
+    margin-top: 20px;
+    padding : 12px 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-color: #88f7ff;
+    color : #702cd9;
+}
+#id2{
+    margin-top: 20px;
+    padding : 12px 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-color: #88f7ff;
+    color : #702cd9;
+}
+
+.exp{
+    width : 100%;
+    margin : 20px;
+    margin-left: 75px;
+    
+}
+#work-exp{
+    color : rgb(125, 223, 245);
+}
+#work-exp-heading{
+    font-size: 2rem;
+    color : white;
+}
+hr{
+    margin: 0 80px;
+}
+
+section2 > .box{
+    background-color: white;
+    width : 175vh;
+    height : 1px;
+    margin : 50px 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.box .vertical1{
+    background-color: white;
+    width : 2px;
+    height : 50px;
+    margin-left : 100px;
+}
+.box .vertical2{
+    background-color: white;
+    width : 2px;
+    height : 50px;
+    /* margin-left : 10px; */
+}
+.box .vertical3{
+    background-color: white;
+    width : 2px;
+    height : 50px;
+    margin-left: -15px;
+    
+}
+.box .vertical4{
+    background-color: white;
+    width : 2px;
+    height : 50px;
+    margin-right: 120px;
+}
+.vertical1 .image-top{
+    height: 31px;
+    width: 12vh;
+    padding: 2px;
+    position: relative;
+    top: -34px;
+    left: -20px;
+}
+.vertical1 .text{
+    font-size: 16px;
+    position: relative;
+    top: 21px;
+    left: -7px;
+    color : white;
+}
+.vertical1 .description{
+    position: relative;
+    top: 30px;
+    left: -8px;
+    font-size: 9px;
+    width: 30vh;
+    margin-bottom: 30px;
+    color : #88f7ff
+}
+.vertical2 .image-top{
+    height: 31px;
+    width: 12vh;
+    padding: 2px;
+    position: relative;
+    top: -34px;
+    left: -20px;
+}
+.vertical2 .text{
+    font-size: 16px;
+    position: relative;
+    top: 21px;
+    left: -7px;
+    color : white;
+}
+.vertical2 .description{
+    position: relative;
+    top: 30px;
+    left: -8px;
+    font-size: 9px;
+    width: 30vh;
+    margin-bottom: 30px;
+    color : #88f7ff
+}
+.vertical3 .image-top{
+    height: 31px;
+    width: 12vh;
+    padding: 2px;
+    position: relative;
+    top: -34px;
+    left: -20px;
+}
+.vertical3 .text{
+    font-size: 16px;
+    position: relative;
+    top: 21px;
+    left: -7px;
+    color : white;
+}
+.vertical3 .description{
+    position: relative;
+    top: 30px;
+    left: -8px;
+    font-size: 9px;
+    width: 30vh;
+    margin-bottom: 30px;
+    color : #88f7ff
+}
+.vertical4 .image-top{
+    height: 31px;
+    width: 12vh;
+    padding: 2px;
+    position: relative;
+    top: -34px;
+    left: -20px;
+}
+.vertical4 .text{
+    font-size: 16px;
+    position: relative;
+    top: 21px;
+    left: -7px;
+    color : white;
+}
+.vertical4 .description{
+    position: relative;
+    top: 30px;
+    left: -8px;
+    font-size: 9px;
+    width: 30vh;
+    margin-bottom: 30px;
+    color : #88f7ff
+}
+
+.foot{
+    height : 20vh;
+    width : 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+    color: #03ebe2;
+    background-color: #a600ff45;
+}
+.foot .left{
+    position: relative;
+    left : -20px;
+    font-size: 28px;
+}
+#Services{
+    position: relative;
+    left : -300px;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: line-through;
+    color: white;
+}
